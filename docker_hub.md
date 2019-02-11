@@ -20,14 +20,14 @@ docker pull ubuntu:16.04
 
 4. create a custom tag to docker image
 ```sh
-docker tag ubuntu:latest valaxy/ubuntu:demo
+docker tag ubuntu:latest rsundararajandocker/ubuntu:V1
 ```
 
 5. login to your docker hub registry 
 ``sh
 docker login
 ```
-6. docker push valaxy/ubuntu:demo
+6. docker push rsundararajandocker/ubuntu:V1
 ```
 
 ### testing 
@@ -39,6 +39,6 @@ docker image rm -f <Image_id>
 
 2. Pull your custom image from your docker account
 ```sh
-docker pull valaxy/ubuntu:demo
+docker pull rsundararajandocker/ubuntu:V1
 ```
 
